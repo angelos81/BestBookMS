@@ -17,10 +17,11 @@ spring:
     properties:
       hibernate:
         format_sql: true
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
   kafka:
     consumer:
       bootstrap-servers: localhost:9092
