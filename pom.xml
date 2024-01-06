@@ -9,10 +9,10 @@
        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.msa</groupId>
-    <artifactId>Rental</artifactId>
+    <artifactId>BestBook</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Rental</name>
-    <description>Rental</description>
+    <name>BestBook</name>
+    <description>BestBook</description>
     <properties>
         <java.version>11</java.version>
         <maven.compiler.target>11</maven.compiler.target>

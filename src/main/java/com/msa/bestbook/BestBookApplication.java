@@ -1,16 +1,13 @@
-package com.msa.rental;
+package com.msa.bestbook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.time.LocalDate;
-import java.util.stream.Collectors;
-
 @SpringBootApplication
-public class RentalApplication {
+public class BestBookApplication {
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(RentalApplication.class, args);
+        SpringApplication.run(BestBookApplication.class, args);
     }
 
 
